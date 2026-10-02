@@ -2,15 +2,15 @@
 
     body {
         font-family: Arial, sans-serif;
-        background-color: #24123D;
-        color: #F5F3FF;
+        background-color: #160D24;
+        color: #F5F5F5;
         margin: 0;
         padding: 0;
     }
 
     header {
-        background-color: #6D28D9;
-        color: #F5F3FF;
+        background-color: #6700ED;
+        color: #F5F5F5;
         padding: 20px;
         text-align: center;
     }
@@ -19,7 +19,7 @@
         list-style-type: none;
         margin: 0;
         padding: 0;
-        background-color: #24123D;
+        background-color: #160D24;
     }
 
     nav ul li {
@@ -28,19 +28,21 @@
 
     nav ul li a {
         display: block;
-        color: #D8B4FE;
+        color: #ED66D7;
         text-align: center;
-        padding: 12px;
+        padding: 16px;
+        font-size: 18px;
         text-decoration: none;
     }
 
     nav ul li a:hover {
-        background-color: #6D28D9;
-        color: #F5F3FF;
+        background-color: #6700ED;
+        color: #F5F5F5;
     }
 
     main {
         padding: 10px;
+        font-size: 16px;
     }
 
     main section {

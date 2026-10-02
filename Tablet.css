@@ -1,20 +1,17 @@
-@media screen and (min-width: 481px) and (max-width: 959px) {
-
-}
 
 @media screen and (min-width: 481px) and (max-width: 959px) {
 
     body {
         font-family: Arial, sans-serif;
-        background-color: #24123D;
-        color: #F5F3FF;
+        background-color: #160D24;
+        color: #F5F5F5;
         margin: 0;
         padding: 0;
     }
 
     header {
-        background-color: #6D28D9;
-        color: #F5F3FF;
+        background-color: #6700ED;
+        color: #F5F5F5;
         padding: 25px;
         text-align: center;
     }
@@ -24,7 +21,7 @@
         margin: 0;
         padding: 0;
         overflow: hidden;
-        background-color: #24123D;
+        background-color: #160D24;
     }
 
     nav ul li {
@@ -33,15 +30,15 @@
 
     nav ul li a {
         display: block;
-        color: #D8B4FE;
+        color: #ED66D7;
         text-align: center;
         padding: 12px 14px;
         text-decoration: none;
     }
 
     nav ul li a:hover {
-        background-color: #6D28D9;
-        color: #F5F3FF;
+        background-color: #1900ED;
+        color: #F5F5F5;
     }
 
     main {
@@ -49,18 +46,18 @@
     }
 
     main section {
-        background-color: #321A4F;
+        background-color: #251438;
         padding: 15px;
         margin-bottom: 15px;
     }
 
     main h2 {
-        color: #D8B4FE;
+        color: #ED66D7;
     }
 
     footer {
-        background-color: #6D28D9;
-        color: #F5F3FF;
+        background-color: #6700ED;
+        color: #F5F5F5;
         text-align: center;
         padding: 10px;
     }
