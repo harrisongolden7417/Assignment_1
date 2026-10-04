@@ -10,12 +10,33 @@
     }
 
     header {
-        background-color: #6700ED;
+        background: linear-gradient(to right, #6700ED, #1900ED);
         color: #F5F5F5;
         padding: 25px;
         text-align: center;
     }
 
+    .profile-photo {
+        width: 250px;
+        height: auto;
+        max-width: 100%;
+    }
+
+  .piano-video {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+    background-color: #251438;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+article h3 {
+    color: #ED66D7;
+}
     nav ul {
         list-style-type: none;
         margin: 0;
@@ -46,19 +67,20 @@
     }
 
     main section {
-        background-color: #251438;
-        padding: 15px;
-        margin-bottom: 15px;
+    background-color: #251438;
+    padding: 25px;
+    margin-bottom: 30px;
     }
 
     main h2 {
         color: #ED66D7;
     }
 
+       
     footer {
-        background-color: #6700ED;
-        color: #F5F5F5;
-        text-align: center;
-        padding: 10px;
+    background: linear-gradient(135deg, #6700ED, #B400ED);
+    color: #F5F5F5;
+    text-align: center;
+    padding: 10px;
     }
 }

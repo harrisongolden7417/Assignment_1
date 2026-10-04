@@ -9,11 +9,32 @@
     }
 
     header {
-        background-color: #6700ED;
+        background: linear-gradient(to right, #6700ED, #1900ED);
         color: #F5F5F5;
         padding: 20px;
         text-align: center;
     }
+
+    .profile-photo {
+        width: 200px;
+        height: auto;
+        max-width: 100%;
+    }
+
+   .piano-video {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    background-color: #251438;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    color: #ED66D7;
+}
 
     nav ul {
         list-style-type: none;
@@ -56,9 +77,9 @@
     }
 
     footer {
-        background-color: #6D28D9;
-        color: #F5F3FF;
-        text-align: center;
-        padding: 10px;
+    background: linear-gradient(135deg, #6700ED, #B400ED);
+    color: #F5F5F5;
+    text-align: center;
+    padding: 10px;
     }
 }

@@ -8,11 +8,33 @@
     }
 
     header {
-       background-color: #6700ED;
+       background: linear-gradient(to right, #6700ED, #1900ED);
        color: #F5F5F5;
         padding: 30px;
         text-align: center;
     }
+
+    .profile-photo {
+        width: 300px;
+        height: auto;
+        max-width: 100%;
+    }
+
+  .piano-video {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+article {
+    background-color: #251438;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article h3 {
+    color: #ED66D7;
+}
 
     nav ul {
         list-style-type: none;
@@ -33,12 +55,13 @@
     }
 
     nav ul li a:hover {
-        background-color: #1900ED;
+    background-color: #1900ED;
     color: #F5F5F5;
     }
 
     main {
-        padding: 20px;
+        padding: 40px;
+        clear: both;
     }
 
     main section {
@@ -50,13 +73,31 @@
 
     main h2 {
         color: #ED66D7;
+        text-align: center;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
     }
 
-    footer {
+    .home-column {
+    float: left;
+    width: 46%;
+    margin: 2%;
+    min-height: 180px;
+    box-sizing: border-box;
+    }
+
+    main::after {
+    content: "";
+    display: table;
+    clear: both;
+    }
        
-       background-color: #6700ED;
+    footer {
+    background: linear-gradient(135deg, #6700ED, #B400ED);
     color: #F5F5F5;
-        text-align: center;
-        padding: 10px;
-         }
+    text-align: center;
+    padding: 10px;
+    }
+
+
 }
