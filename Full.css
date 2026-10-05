@@ -86,9 +86,7 @@ article h3 {
     box-sizing: border-box;
     }
 
-    main::after {
-    content: "";
-    display: table;
+    .clear {
     clear: both;
     }
        
