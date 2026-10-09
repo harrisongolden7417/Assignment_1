@@ -1,112 +1,112 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) { /* Applies mobile layout styles for small screens */
 
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #160D24;
-        color: #F5F5F5;
-        margin: 0;
-        padding: 0;
-    }
+    body { /* Sets the base page styling */
+        font-family: Arial, sans-serif; /* Sets the page font */
+        background-color: #160D24; /* Sets the dark background */
+        color: #F5F5F5; /* Sets the text color */
+        margin: 0; /* Removes default margin */
+        padding: 0; /* Removes default padding */
+    } /* Ends body styling */
 
-    header {
-        background: linear-gradient(to right, #6700ED, #1900ED);
-        color: #F5F5F5;
-        padding: 20px;
-        text-align: center;
-    }
+    header { /* Styles the page header */
+        background: linear-gradient(to right, #6700ED, #1900ED); /* Creates a purple gradient */
+        color: #F5F5F5; /* Sets the header text color */
+        padding: 20px; /* Adds internal spacing */
+        text-align: center; /* Centers header content */
+    } /* Ends header styling */
 
-    .profile-photo {
-        width: 200px;
-        height: auto;
-        max-width: 100%;
-    }
+    .profile-photo { /* Styles the profile image */
+        width: 200px; /* Sets image width */
+        height: auto; /* Keeps the aspect ratio */
+        max-width: 100%; /* Prevents overflow */
+    } /* Ends photo styling */
 
-   .piano-video {
-    width: 100%;
-    height: auto;
-}
+   .piano-video { /* Styles the embedded video */
+    width: 100%; /* Makes the video full width */
+    height: auto; /* Keeps the aspect ratio */
+} /* Ends video styling */
 
-article {
-    background-color: #251438;
-    padding: 15px;
-    margin-bottom: 10px;
-}
+article { /* Styles project cards */
+    background-color: #251438; /* Sets a dark purple background */
+    padding: 15px; /* Adds card spacing */
+    margin-bottom: 10px; /* Adds space below each card */
+} /* Ends article styling */
 
-article h3 {
-    color: #ED66D7;
-}
+article h3 { /* Styles article headings */
+    color: #ED66D7; /* Sets the heading accent color */
+} /* Ends article heading styling */
 
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color: #160D24;
-    }
+    nav ul { /* Styles the nav list */
+        list-style-type: none; /* Removes bullets */
+        margin: 0; /* Removes default margin */
+        padding: 0; /* Removes default padding */
+        background-color: #160D24; /* Sets the nav background */
+    } /* Ends nav list styling */
 
-    nav ul li {
-        float: none;
-    }
+    nav ul li { /* Styles each nav item */
+        float: none; /* Stacks items vertically */
+    } /* Ends nav item styling */
 
-    nav ul li a {
-        display: block;
-        color: #ED66D7;
-        text-align: center;
-        padding: 16px;
-        font-size: 18px;
-        text-decoration: none;
-    }
+    nav ul li a { /* Styles nav links */
+        display: block; /* Makes each link fill the row */
+        color: #ED66D7; /* Sets the link color */
+        text-align: center; /* Centers the link text */
+        padding: 16px; /* Adds spacing inside the link */
+        font-size: 18px; /* Sets larger text for mobile */
+        text-decoration: none; /* Removes underlines */
+    } /* Ends nav link styling */
 
-    nav ul li a:hover {
-        background-color: #6700ED;
-        color: #F5F5F5;
-    }
+    nav ul li a:hover { /* Styles hovered nav links */
+        background-color: #6700ED; /* Changes hover background */
+        color: #F5F5F5; /* Changes hover text color */
+    } /* Ends hover styling */
 
-    main {
-        padding: 10px;
-        font-size: 16px;
-    }
+    main { /* Styles the main content */
+        padding: 10px; /* Adds minimal spacing */
+        font-size: 16px; /* Sets a readable text size */
+    } /* Ends main styling */
 
-    main section {
-        background-color: #321A4F;
-        padding: 15px;
-        margin-bottom: 10px;
-    }
+    main section { /* Styles content sections */
+        background-color: #321A4F; /* Sets a darker purple section background */
+        padding: 15px; /* Adds interior spacing */
+        margin-bottom: 10px; /* Adds space below sections */
+    } /* Ends section styling */
 
-    main h2 {
-        color: #D8B4FE;
-    }
+    main h2 { /* Styles section headings */
+        color: #D8B4FE; /* Sets a lighter purple heading color */
+    } /* Ends heading styling */
 
-    footer {
-    background: linear-gradient(135deg, #6700ED, #B400ED);
-    color: #F5F5F5;
-    text-align: center;
-    padding: 10px;
-    }
+    footer { /* Styles the footer */
+    background: linear-gradient(135deg, #6700ED, #B400ED); /* Creates a gradient footer */
+    color: #F5F5F5; /* Sets footer text color */
+    text-align: center; /* Centers footer text */
+    padding: 10px; /* Adds spacing inside the footer */
+    } /* Ends footer styling */
 
-    form {
-    background-color: #321A4F;
-    padding: 15px;
-    }
+    form { /* Styles the form */
+    background-color: #321A4F; /* Sets the form background */
+    padding: 15px; /* Adds spacing inside the form */
+    } /* Ends form styling */
 
-    form label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    }
+    form label { /* Styles labels in the form */
+    display: block; /* Places each label on its own line */
+    margin-top: 15px; /* Adds space above labels */
+    margin-bottom: 5px; /* Adds space below labels */
+    } /* Ends label styling */
 
-    form input,form textarea {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    }
+    form input,form textarea { /* Styles input fields */
+    width: 100%; /* Makes inputs full width */
+    padding: 10px; /* Adds inner spacing */
+    box-sizing: border-box; /* Keeps width consistent */
+    } /* Ends input styling */
 
-    form input[type="submit"] {
-    width: 100%;
-    margin-top: 15px;
-    padding: 12px;
-    background-color: #6700ED;
-    color: #F5F5F5;
-    border: none;
-    font-size: 16px;
-    }
-}
+    form input[type="submit"] { /* Styles the submit button */
+    width: 100%; /* Makes the button full width */
+    margin-top: 15px; /* Adds space above the button */
+    padding: 12px; /* Adds button padding */
+    background-color: #6700ED; /* Sets button color */
+    color: #F5F5F5; /* Sets button text color */
+    border: none; /* Removes the border */
+    font-size: 16px; /* Sets readable button text */
+    } /* Ends submit styling */
+} /* Closes the mobile media query */

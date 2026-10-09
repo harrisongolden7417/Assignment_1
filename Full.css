@@ -1,127 +1,127 @@
-@media screen and (min-width: 960px) {
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #160D24;
-        color: #F5F5F5;
-        margin: 0;
-        padding: 0;
-    }
+@media screen and (min-width: 960px) { /* Applies desktop layout styles when the screen is large enough */
+    body { /* Sets the base body styling */
+        font-family: Arial, sans-serif; /* Sets the site font */
+        background-color: #160D24; /* Sets the dark background color */
+        color: #F5F5F5; /* Sets the primary text color */
+        margin: 0; /* Removes default page margin */
+        padding: 0; /* Removes default page padding */
+    } /* Ends the body styling */
 
-    header {
-       background: linear-gradient(to right, #6700ED, #1900ED);
-       color: #F5F5F5;
-        padding: 30px;
-        text-align: center;
-    }
+    header { /* Styles the page header */
+       background: linear-gradient(to right, #6700ED, #1900ED); /* Creates a purple gradient background */
+       color: #F5F5F5; /* Sets the header text color */
+        padding: 30px; /* Adds spacing inside the header */
+        text-align: center; /* Centers the header content */
+    } /* Ends the header styling */
 
-    .profile-photo {
-        width: 300px;
-        height: auto;
-        max-width: 100%;
-    }
+    .profile-photo { /* Styles the profile image */
+        width: 300px; /* Sets image width */
+        height: auto; /* Keeps the image aspect ratio */
+        max-width: 100%; /* Prevents the image from overflowing */
+    } /* Ends profile image styling */
 
-  .piano-video {
-    width: 400px;
-    max-width: 100%;
-    height: auto;
-}
+  .piano-video { /* Styles the piano video */
+    width: 400px; /* Sets the video width */
+    max-width: 100%; /* Prevents overflow */
+    height: auto; /* Keeps the video aspect ratio */
+} /* Ends video styling */
 
-article {
-    background-color: #251438;
-    padding: 20px;
-    margin-bottom: 20px;
-}
+article { /* Styles each project article */
+    background-color: #251438; /* Sets a dark purple card background */
+    padding: 20px; /* Adds padding inside each article */
+    margin-bottom: 20px; /* Adds space below each article */
+} /* Ends article styling */
 
-article h3 {
-    color: #ED66D7;
-}
+article h3 { /* Styles project headlines */
+    color: #ED66D7; /* Sets the accent color for the project headings */
+} /* Ends article heading styling */
 
-    nav ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color: #160D24;
-    }
+    nav ul { /* Styles the navigation list */
+        list-style-type: none; /* Removes default list bullets */
+        margin: 0; /* Removes default margin */
+        padding: 0; /* Removes default padding */
+        background-color: #160D24; /* Sets the nav background */
+    } /* Ends nav list styling */
 
-    nav ul li {
-        float: left;
-    }
+    nav ul li { /* Styles each list item in the nav */
+        float: left; /* Positions nav items beside each other */
+    } /* Ends nav item styling */
 
-    nav ul li a {
-        display: block;
-        color: #ED66D7;
-        text-align: center;
-        padding: 14px 16px;
-    }
+    nav ul li a { /* Styles the nav links */
+        display: block; /* Makes each link fill its list item */
+        color: #ED66D7; /* Sets the link color */
+        text-align: center; /* Centers link text */
+        padding: 14px 16px; /* Adds spacing inside the link */
+    } /* Ends link styling */
 
-    nav ul li a:hover {
-    background-color: #1900ED;
-    color: #F5F5F5;
-    }
+    nav ul li a:hover { /* Styles the nav links while hovering */
+    background-color: #1900ED; /* Changes the hover background color */
+    color: #F5F5F5; /* Changes the hover text color */
+    } /* Ends hover styling */
 
-    main {
-        padding: 40px;
-        clear: both;
-    }
+    main { /* Styles the main content area */
+        padding: 40px; /* Adds spacing around content */
+        clear: both; /* Clears floated items before continuing */
+    } /* Ends main styling */
 
-    main section {
-        background-color: #251438;
-        padding: 20px;
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
+    main section { /* Styles major sections inside the main area */
+        background-color: #251438; /* Sets section background */
+        padding: 20px; /* Adds spacing inside sections */
+        margin-bottom: 20px; /* Adds space below each section */
+        margin-top: 20px; /* Adds space above each section */
+    } /* Ends section styling */
 
-    main h2 {
-        color: #ED66D7;
-        text-align: center;
-        padding-bottom: 20px;
-        margin-bottom: 20px;
-    }
+    main h2 { /* Styles section headings */
+        color: #ED66D7; /* Sets the main accent heading color */
+        text-align: center; /* Centers the headings */
+        padding-bottom: 20px; /* Adds spacing below headings */
+        margin-bottom: 20px; /* Adds space below headings */
+    } /* Ends heading styling */
 
-    .home-column {
-    float: left;
-    width: 46%;
-    margin: 2%;
-    min-height: 180px;
-    box-sizing: border-box;
-    }
+    .home-column { /* Styles the home page columns */
+    float: left; /* Positions columns side by side */
+    width: 46%; /* Sets each column width */
+    margin: 2%; /* Adds spacing around each column */
+    min-height: 180px; /* Sets a minimum height */
+    box-sizing: border-box; /* Keeps width consistent with padding */
+    } /* Ends home-column styling */
 
-    .clear {
-    clear: both;
-    }
+    .clear { /* Creates a clear fix class */
+    clear: both; /* Clears floating elements */
+    } /* Ends clear class styling */
        
-    footer {
-    background: linear-gradient(135deg, #6700ED, #B400ED);
-    color: #F5F5F5;
-    text-align: center;
-    padding: 10px;
-    }
+    footer { /* Styles the footer */
+    background: linear-gradient(135deg, #6700ED, #B400ED); /* Adds a purple gradient */
+    color: #F5F5F5; /* Sets the footer text color */
+    text-align: center; /* Centers the footer text */
+    padding: 10px; /* Adds spacing inside the footer */
+    } /* Ends footer styling */
 
-    form {
-    background-color: #251438;
-    padding: 20px;
-    }
+    form { /* Styles the contact form */
+    background-color: #251438; /* Sets the form background color */
+    padding: 20px; /* Adds spacing inside the form */
+    } /* Ends form styling */
 
-form label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 5px;
-    }
+form label { /* Styles the form labels */
+    display: block; /* Makes labels appear on their own line */
+    margin-top: 15px; /* Adds space above labels */
+    margin-bottom: 5px; /* Adds space below labels */
+    } /* Ends label styling */
 
-form input,form textarea {
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    }
+form input,form textarea { /* Styles form inputs and text areas */
+    width: 100%; /* Makes fields full width */
+    padding: 10px; /* Adds spacing inside fields */
+    box-sizing: border-box; /* Keeps sizing consistent */
+    } /* Ends input styling */
 
-form input[type="submit"] {
-    width: auto;
-    margin-top: 15px;
-    padding: 10px 20px;
-    background-color: #6700ED;
-    color: #F5F5F5;
-    border: none;
-    }
+form input[type="submit"] { /* Styles the submit button */
+    width: auto; /* Keeps the button compact */
+    margin-top: 15px; /* Adds space above the button */
+    padding: 10px 20px; /* Adds button padding */
+    background-color: #6700ED; /* Sets the button background color */
+    color: #F5F5F5; /* Sets button text color */
+    border: none; /* Removes the button border */
+    } /* Ends submit button styling */
 
 
-}
+} /* Closes the desktop media query */

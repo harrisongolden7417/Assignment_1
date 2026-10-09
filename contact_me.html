@@ -1,46 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="Full.css" media="screen and (min-width: 960px)">
-    <link rel="stylesheet" href="Tablet.css" media="screen and (max-width: 959px) and (min-width: 481px)">
-    <link rel="stylesheet" href="Mobile.css" media="screen and (max-width: 480px)">
-    <title>Contact Me | My Portfolio</title>
-</head>
-<body>
-    <header>
-        <h1>Contact Me</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about_me.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact_me.html">Contact</a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2>Contact Me</h2>
-            <p>
-                If you would like to get in touch with me, please feel free to fill out this form!
-            </p>
+<!DOCTYPE html> <!-- Declares the document as HTML5 -->
+<html lang="en"> <!-- Starts the HTML document and sets the page language -->
+<head> <!-- Begins the head section -->
+    <meta charset="UTF-8"> <!-- Sets the character encoding to UTF-8 -->
+    <link rel="stylesheet" href="Full.css" media="screen and (min-width: 960px)"> <!-- Links the desktop stylesheet -->
+    <link rel="stylesheet" href="Tablet.css" media="screen and (max-width: 959px) and (min-width: 481px)"> <!-- Links the tablet stylesheet -->
+    <link rel="stylesheet" href="Mobile.css" media="screen and (max-width: 480px)"> <!-- Links the mobile stylesheet -->
+    <title>Contact Me | My Portfolio</title> <!-- Sets the browser tab title -->
+</head> <!-- Ends the head section -->
+<body> <!-- Starts the page body -->
+    <header> <!-- Starts the header section -->
+        <h1>Contact Me</h1> <!-- Main page heading -->
+    </header> <!-- Ends the header -->
+    <nav> <!-- Starts the navigation menu -->
+        <ul> <!-- Creates the navigation list -->
+            <li><a href="index.html">Home</a></li> <!-- Links to the home page -->
+            <li><a href="about_me.html">About Me</a></li> <!-- Links to the about me page -->
+            <li><a href="projects.html">Projects</a></li> <!-- Links to the projects page -->
+            <li><a href="contact_me.html">Contact</a></li> <!-- Links to the contact page -->
+        </ul> <!-- Ends the navigation list -->
+    </nav> <!-- Ends the navigation menu -->
+    <main> <!-- Starts the main content -->
+        <section> <!-- Starts the contact section -->
+            <h2>Contact Me</h2> <!-- Section heading -->
+            <p> <!-- Opens a paragraph -->
+                If you would like to get in touch with me, please feel free to fill out this form! <!-- Instructions for contacting the user -->
+            </p> <!-- Ends the paragraph -->
 
-            <form>
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="phone">Phone:</label>
-                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
-                <label for="comments">Comments:</label>
-                <textarea id="comments" name="comments" rows="4" required></textarea>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>My email address is: harrison.golden@ontariotechu.net</p>
-        <p>&copy; 2026 Harrison Golden. All rights reserved.</p>
-    </footer>
-</body>
+            <form> <!-- Starts the contact form -->
+                <label for="name">Name:</label> <!-- Labels the name field -->
+                <input type="text" id="name" name="name" required> <!-- Collects the user's name -->
+                <label for="email">Email:</label> <!-- Labels the email field -->
+                <input type="email" id="email" name="email" required> <!-- Collects the user's email -->
+                <label for="phone">Phone:</label> <!-- Labels the phone field -->
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required> <!-- Collects a 10-digit phone number -->
+                <label for="comments">Comments:</label> <!-- Labels the message field -->
+                <textarea id="comments" name="comments" rows="4" required></textarea> <!-- Collects a message from the user -->
+                <input type="submit" value="Submit"> <!-- Submits the form -->
+            </form> <!-- Ends the contact form -->
+        </section> <!-- Ends the contact section -->
+    </main> <!-- Ends the main content -->
+    <footer> <!-- Starts the footer -->
+        <p>My email address is: harrison.golden@ontariotechu.net</p> <!-- Displays the contact email -->
+        <p>&copy; 2026 Harrison Golden. All rights reserved.</p> <!-- Displays the copyright notice -->
+    </footer> <!-- Ends the footer -->
+</body> <!-- Ends the body -->
+</html> <!-- Ends the HTML document -->
