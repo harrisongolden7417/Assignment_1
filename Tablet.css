@@ -1,112 +1,113 @@
 
-@media screen and (min-width: 481px) and (max-width: 959px) { /* Applies tablet layout styles for medium-sized screens */
+@media screen and (min-width: 481px) and (max-width: 959px) {
+    /* Tablet layout */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #160D24;
+        color: #F5F5F5;
+        margin: 0;
+        padding: 0;
+    }
 
-    body { /* Sets the base page styling */
-        font-family: Arial, sans-serif; /* Sets the page font */
-        background-color: #160D24; /* Sets the dark background */
-        color: #F5F5F5; /* Sets the text color */
-        margin: 0; /* Removes default margin */
-        padding: 0; /* Removes default padding */
-    } /* Ends body styling */
+    header {
+        background: linear-gradient(to right, #6700ED, #1900ED);
+        color: #F5F5F5;
+        padding: 25px;
+        text-align: center;
+    }
 
-    header { /* Styles the header */
-        background: linear-gradient(to right, #6700ED, #1900ED); /* Creates a purple gradient */
-        color: #F5F5F5; /* Sets the header text color */
-        padding: 25px; /* Adds inside spacing */
-        text-align: center; /* Centers the content */
-    } /* Ends header styling */
+    .profile-photo {
+        width: 250px;
+        height: auto;
+        max-width: 100%;
+    }
 
-    .profile-photo { /* Styles the profile image */
-        width: 250px; /* Sets image width */
-        height: auto; /* Keeps image proportions */
-        max-width: 100%; /* Prevents overflow */
-    } /* Ends profile photo styling */
+  .piano-video {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
 
-  .piano-video { /* Styles the video element */
-    width: 300px; /* Sets video width */
-    max-width: 100%; /* Prevents overflow */
-    height: auto; /* Keeps aspect ratio */
-} /* Ends video styling */
+article {
+    background-color: #251438;
+    padding: 15px;
+    margin-bottom: 15px;
+}
 
-article { /* Styles each article card */
-    background-color: #251438; /* Sets the card background */
-    padding: 15px; /* Adds spacing inside the card */
-    margin-bottom: 15px; /* Adds space below the card */
-} /* Ends article styling */
+article h3 {
+    color: #ED66D7;
+}
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #160D24;
+    }
 
-article h3 { /* Styles article headings */
-    color: #ED66D7; /* Sets the heading color */
-} /* Ends article heading styling */
-    nav ul { /* Styles the navigation list */
-        list-style-type: none; /* Removes default bullets */
-        margin: 0; /* Removes default margin */
-        padding: 0; /* Removes default padding */
-        overflow: hidden; /* Keeps nav items within the layout */
-        background-color: #160D24; /* Sets the nav background */
-    } /* Ends nav list styling */
+    nav ul li {
+        float: left;
+    }
 
-    nav ul li { /* Styles nav items */
-        float: left; /* Aligns items side by side */
-    } /* Ends nav item styling */
+    nav ul li a {
+        display: block;
+        color: #ED66D7;
+        text-align: center;
+        padding: 12px 14px;
+        text-decoration: none;
+    }
 
-    nav ul li a { /* Styles the navigation links */
-        display: block; /* Makes each link take full available space */
-        color: #ED66D7; /* Sets the link color */
-        text-align: center; /* Centers the link text */
-        padding: 12px 14px; /* Adds spacing inside links */
-        text-decoration: none; /* Removes the underline */
-    } /* Ends nav link styling */
+    nav ul li a:hover {
+        background-color: #1900ED;
+        color: #F5F5F5;
+    }
 
-    nav ul li a:hover { /* Styles links on hover */
-        background-color: #1900ED; /* Sets the hover background */
-        color: #F5F5F5; /* Sets the text color on hover */
-    } /* Ends hover styling */
+    main {
+        padding: 15px;
+    }
 
-    main { /* Styles the main content */
-        padding: 15px; /* Adds interior spacing */
-    } /* Ends main styling */
+    main section {
+    background-color: #251438;
+    padding: 25px;
+    margin-bottom: 30px;
+    }
 
-    main section { /* Styles sections inside the main area */
-    background-color: #251438; /* Sets the section background */
-    padding: 25px; /* Adds internal spacing */
-    margin-bottom: 30px; /* Adds space below each section */
-    } /* Ends section styling */
-
-    main h2 { /* Styles the second-level headings */
-        color: #ED66D7; /* Sets the heading color */
-    } /* Ends heading styling */
+    main h2 {
+        color: #ED66D7;
+    }
 
        
-    footer { /* Styles the footer */
-    background: linear-gradient(135deg, #6700ED, #B400ED); /* Creates a footer gradient */
-    color: #F5F5F5; /* Sets the footer text color */
-    text-align: center; /* Centers the footer text */
-    padding: 10px; /* Adds internal spacing */
-    } /* Ends footer styling */
+    footer {
+    background: linear-gradient(135deg, #6700ED, #B400ED);
+    color: #F5F5F5;
+    text-align: center;
+    padding: 10px;
+    }
 
-    form { /* Styles the contact form */
-    background-color: #251438; /* Sets the form background */
-    padding: 15px; /* Adds spacing inside the form */
-    } /* Ends form styling */
+    /* Form styling */
+    form {
+    background-color: #251438;
+    padding: 15px;
+    }
 
-    form label { /* Styles the form labels */
-    display: block; /* Places each label on its own line */
-    margin-top: 15px; /* Adds space above each label */
-    margin-bottom: 5px; /* Adds space below each label */
-    } /* Ends label styling */
+    form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    }
 
-    form input,form textarea { /* Styles form fields */
-    width: 100%; /* Makes inputs full width */
-    padding: 10px; /* Adds field padding */
-    box-sizing: border-box; /* Keeps width calculations consistent */
-    } /* Ends form field styling */
+    form input,form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    }
 
-    form input[type="submit"] { /* Styles the submit button */
-    width: auto; /* Keeps button width natural */
-    margin-top: 15px; /* Adds space above the button */
-    padding: 10px 20px; /* Adds button padding */
-    background-color: #6700ED; /* Sets button color */
-    color: #F5F5F5; /* Sets button text color */
-    border: none; /* Removes the button border */
-    } /* Ends submit button styling */
-} /* Closes the tablet media query */
+    form input[type="submit"] {
+    width: auto;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #6700ED;
+    color: #F5F5F5;
+    border: none;
+    }
+}
