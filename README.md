@@ -1,17 +1,17 @@
 # Assignment 1 - Personal Portfolio Website
 
 ## Project Description
-    This project is a personal portfolio website created for Web and Script Programming. The website was developed using HTML5 and CSS3 and contains four seperate pages: home, contact me, projects, and about me. 
+    This project is a personal portfolio website created for Web and Script Programming. The website was developed using HTML5 and CSS3 and contains four separate pages: Home, Contact Me, Projects, and About Me.
 
-    The portfolio provides information about me, examples of projects I have completed, and a contact form that allows visitors to enter their name, email address, cell number, and comments.
+    The portfolio provides information about me, examples of projects I have completed, and a contact form that allows visitors to enter their name, email address, phone number, and comments.
 
 ## Responsive Design
-    The website uses three seperate CSS stylesheets to support different screen sizes:
+    The website uses three separate CSS stylesheets to support different screen sizes:
     1. Mobile.css: screen widths of 480px or less.
     2. Tablet.css: screen widths of 481px to 959px.
     3. Full.css: screen widths of 960px or greater.
 
-    These viewports sizes were selected based on the responsive design concepts covered in the Week 3 lecture. The lecture identifies smartphones as screens up to 480px wide, tablets as approximately 481px to 960px wide, and full-sized displays as 960px or greater.
+    These viewport sizes were selected based on the responsive design concepts covered in the Week 3 lecture. The lecture identifies smartphones as screens up to 480px wide, tablets as approximately 481px to 960px wide, and full-sized displays as 960px or greater.
 
     The website uses a fluid design so that content can adjust to different screen sizes. Percentage-based widths and responsive media sizing are used where appropriate. On the Home page, the desktop layout displays the main content in two columns, while the tablet and mobile layouts display the content in a single column. The mobile navigation is also stacked vertically and uses larger links to make navigation easier on smaller screens.
 
@@ -86,15 +86,14 @@
 
 ## Testing and Validation
 
-    Before final submission, the website will be tested using the following tools and methods:
+    The website was tested and validated before final submission using the following tools and methods:
 
-    - W3C Markup Validation Service - HTML validation.
-    - W3C CSS Validation Service - CSS validation.
-    - W3C Link Checker - Testing links between pages.
-    - Spell checking - Checking written content for spelling errors.
-    - WAVE Web Accessibility Evaluation Tool - Accessibility testing.
-
-    Any errors identified during testing will be corrected before the final submission.
+        - W3C Markup Validation Service - All four HTML pages were validated successfully.
+        - W3C CSS Validation Service - Full.css, Tablet.css, and Mobile.css were validated successfully.
+        - W3C Link Checker - The website was checked for broken links.
+        - Spell checking - The written content on all pages was reviewed for spelling errors.
+        - WAVE Web Accessibility Evaluation Tool - All four pages were tested for accessibility errors and contrast issues. An alert related to captions/transcription was manually reviewed because the embedded video contains a piano performance with no spoken dialogue.
+        - Responsive testing - The live website was tested at desktop, tablet, and mobile viewport sizes to verify that the navigation, content, images, video, and Contact form display correctly.
 
 ## Repository
 
@@ -102,3 +101,8 @@
 
     GitHub Repository:
     https://github.com/harrisongolden7417/Assignment_1
+
+## Live Website
+    The deployed portfolio website can be viewed at:
+
+    https://harrisongolden7417.github.io/Assignment_1/
